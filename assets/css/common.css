@@ -192,8 +192,8 @@ footer {
 }
 
 .Wrapper-3 {
-  height: 400px;
-  /* 60px * 3 + 120px */
+  height: 420px;
+  /* 60px * 3 + 240px */
 }
 
 .Wrapper-5 {
@@ -272,11 +272,10 @@ footer {
 }
 
 /*  */
-.timeTable_Period,
-.timeTable_Year
- {
+/* .timeTable_Period,
+.timeTable_Year {
   height: 1200px;
-}
+} */
 
 /* .timeTable_Year */
 
