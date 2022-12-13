@@ -188,8 +188,24 @@ footer {
   color: #222;
   background: #fff;
 
-  height: 1200px;
+  /* height: 1200px; */
 }
+
+.Wrapper-3 {
+  height: 400px;
+  /* 60px * 3 + 120px */
+}
+
+.Wrapper-5 {
+  height: 420px;
+  /* 60px * 5 + 120px */
+}
+
+
+
+
+
+
 
 /* //////////////////////////////////////////////////////////////// */
 
