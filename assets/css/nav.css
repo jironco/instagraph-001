@@ -142,7 +142,8 @@ header a:hover {
 
 /*  */
 .HeadLogo {
-	padding: 0;
+	padding: 12px 0 0;
+	/* margin: -6px auto 0; */
 	margin: -6px auto 0;
 	font-size: 18px;
 	line-height: 32px;
