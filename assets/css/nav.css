@@ -3,9 +3,9 @@ header {
 	margin: 0;
 	padding: 0;
   text-align: center;
-  background: #f0b43b;
-  /* position:fixed;
-  z-index: 100; */
+  background: #ccc;
+  /* position:fixed; */
+  z-index: 100;
 }
 
 header a:link,
@@ -20,18 +20,27 @@ header a:hover {
 
 /*  */
 
-.Headbar{
-	padding: 16px 16px 4px;
+.Headbar {
+	/* padding: 16px 16px 4px; */
+	padding: 0 16px 4px;
 	display: grid;
 	grid-template-columns: 1fr 3fr 1fr;
 	grid-gap: 0;
 	z-index: 2;
 }
 
+@media (min-width: 800px) {
+  .Headbar {
+	grid-template-columns: 1fr 10fr 240px;
+  }
+}
+
 /*  */
 #nav-drawer {
 	position: relative;
   text-align: left;
+	/*  */
+	padding-top: 16px;
 }
 
 .nav-unshown {
@@ -86,7 +95,7 @@ header a:hover {
     width: 72%;
     max-width: 360px;
     height: 100%;
-    background-color: rgb(240, 180, 60);
+    background-color: rgb(240, 240, 240);
     transition: .2s ease-in-out;
     -webkit-transform: translateX(-105%);
     transform: translateX(-105%);
@@ -140,3 +149,78 @@ header a:hover {
 	color: #fff;
 	letter-spacing: 0.06em;
 }
+
+
+#nav-content ul li a:link,
+#nav-content ul li a:visited {
+  color: #777;
+}
+
+#nav-content ul li a:hover {
+  color: #9a0100;
+  opacity: 1;
+}
+
+/*  */
+.HeadNav {
+  text-align: right;
+	padding: 0;
+	margin: 0;
+	font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.HeadNav ul {
+  list-style: none;
+  margin: 12px 24px 0 0;
+  padding: 0;
+}
+
+.HeadNav ul li {
+  display: inline;
+  margin: 0 6px;
+  font-size: 1.8rem;
+}
+
+.HeadNav a {
+  padding: 12px;
+}
+
+.HeadNav a:link,
+.HeadNav a:visited {
+  box-shadow: inset 0 0 0 0 #9b0100;
+  color: #9b0100;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  /* color: #9b0100;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1; */
+}
+
+.HeadNav a:hover {
+  color: #ffed44;
+  box-shadow: inset 200px 0 0 0 #9b0100;
+  opacity: 1;
+  /* color: #ffed44;
+  background: rgba(155, 1, 0, 1);
+  opacity: 1; */
+}
+
+@media (max-width: 799px){
+  .HeadNav { display:none }
+}
+
+/*  */
+
+
+.HeadLogo a:link img,
+.HeadLogo a:visited img {
+  opacity: 1;
+  transition: all .2s;
+}
+  
+.HeadLogo a img:hover {
+  opacity: 0.7;
+}
+
+
+/* ======================================================================== */
