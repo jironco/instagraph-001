@@ -184,9 +184,8 @@ sup {
 main,
 footer {
 	width: 100%;
-  /* max-width: 1200px; */
-  margin: 0 auto;
-  padding: 0;
+  /* margin: 0 auto;
+  padding: 0; */
 }
 
 /* //////////////////////////////////////////////////////////////// */
@@ -207,7 +206,7 @@ footer {
 .HomeWrapper {
   margin: 24px auto;
   padding: 0;
-  width: clamp( 450px, 84%, 1200px);
+  width: clamp( 420px, 84%, 1200px);
 }
 
 .HomeWrapper ul {
@@ -259,12 +258,13 @@ footer {
   position:relative;
 
   border: #aaa 1px solid;
+  font-size: 1.4rem;
 }
 
 .HomeWrapper ul li:before{
   content: "";
   display: block;
-  padding-top: 48%;
+  padding-top: 84%;
 }
 
 
@@ -630,10 +630,8 @@ li .ListTitle {
 
 /*	footer */
 footer {
-  margin: 24px 0 0;
-	padding: 24px 0 4px;
-  text-align: center;
 
+  text-align: center;
   background: #ddd;
   color: #fff;
 /* 下部固定用： */
@@ -641,11 +639,10 @@ footer {
 }
 
 .footerWrapper {
+  margin: 0;
+	padding: 24px 0 6px;
+
   font-size: 1rem;
   font-weight: 100;
 }
 
-/* footer p {
-  font-size: 1.2rem;
-  font-weight: 100;
-} */
