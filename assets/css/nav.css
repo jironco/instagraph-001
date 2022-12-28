@@ -27,13 +27,14 @@ header a:hover {
 	grid-template-columns: 1fr 3fr 1fr;
 	grid-gap: 0;
 	z-index: 2;
+
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
   .Headbar {
 	grid-template-columns: 1fr 10fr 240px;
   }
-}
+} */
 
 /*  */
 #nav-drawer {
@@ -149,6 +150,7 @@ header a:hover {
 	line-height: 32px;
 	color: #fff;
 	letter-spacing: 0.06em;
+  text-align: center;
 }
 
 
