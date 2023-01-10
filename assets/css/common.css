@@ -295,6 +295,8 @@ footer {
   color: #222;
   background: #fff;
 
+  display: block;
+
   /* height: 1200px; */
 }
 /*  */
@@ -363,8 +365,48 @@ ul.AchievementList li {
 }
 
 .Wrapper-5 {
-  height: 420px;
-  /* 60px * 5 + 120px */
+  height: 540px;
+  /* 60px * 5 + 240px */
+}
+
+.Wrapper-6 {
+  height: 600px;
+  /* 60px * 5 + 240px */
+}
+
+.Wrapper-7 {
+  height: 660px;
+  /* 60px * 5 + 240px */
+}
+
+.Wrapper-8 {
+  height: 720px;
+  /* 60px * 5 + 240px */
+}
+
+.Wrapper-9 {
+  height: 780px;
+  /* 60px * 5 + 240px */
+}
+
+.Wrapper-10 {
+  height: 840px;
+  /* 60px * 5 + 240px */
+}
+
+.Wrapper-11 {
+  height: 900px;
+  /* 60px * 5 + 240px */
+}
+
+.Wrapper-12 {
+  height: 960px;
+  /* 60px * 5 + 240px */
+}
+
+.Wrapper-13 {
+  height: 1020px;
+  /* 60px * 5 + 240px */
 }
 
 /* //////////////////////////////////////////////////////////////// */
@@ -430,12 +472,6 @@ ul.AchievementList li {
 .timeTable_Person .PersonBox .PersonLifeTime .LifeTime {
   height: 48px;
 }
-
-/*  */
-/* .timeTable_Period,
-.timeTable_Year {
-  height: 1200px;
-} */
 
 /* .timeTable_Year */
 
